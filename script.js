@@ -14,7 +14,7 @@ const reponseEmbleme = ['Administration Économique et Sociale', 'Architecture',
 'Paramédical', 'PASS', 'Pharmacie', 'Philosophie', 'Préparateurs en pharmacie', 'Psychologie', 'Sage-femme', 'Sciences', 'Sciences économiques, Gestion', 'Sciences politiques', 'Sciences sociales', 'Sociologie', 'Vétérinaire'];
 
 
-const reponseInsigneCircu = ['année commencée', 'major de promotion', 'année redoublée', 'année blanche/sabbatique/année de césure', 'fin de cicle, pas de diplôme correspondant', 
+const reponseInsigneCircu = ['année commencée', 'major de promotion', 'année redoublée', 'année blanche/sabbatique/année de césure', 'fin de cycle, pas de diplôme correspondant', 
 'diplôme obtenu', 'échec aux examens et réussite aux rattrapages', 'abandon ou réorientation', 'validées par équivalence', 'années en alternance', 'service militaire ou service civique', 
 'cursus exemplaire', 'perte ou vol de la faluche']
 
@@ -561,9 +561,9 @@ const allQuestions = {
         },
         {
             question: 'Sur le ruban circulaire, sur le cursus universitaire, à quoi correspond correspond l’insigne "simple palme" à la fin d’un cycle ?',
-            correctAnswer: 'fin de cicle, pas de diplôme correspondant',
+            correctAnswer: 'fin de cycle, pas de diplôme correspondant',
             possibleAnswers: reponseInsigneCircu,
-            wrongMessage: "fin de cicle, pas de diplôme correspondant"
+            wrongMessage: "fin de cycle, pas de diplôme correspondant"
         },
         {
             question: 'Sur le ruban circulaire, sur le cursus universitaire, à quoi correspond correspond l’insigne "double palme croisée de lauriers" ',

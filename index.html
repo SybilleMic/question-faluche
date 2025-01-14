@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz faluchard</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz faluchard</h1>
+        <div id="question-progress" style="display: none;">
+            Question <span id="current-question">0</span> / <span id="total-questions">10</span>
+        </div>
+        <div id="theme-selection">
+            <h2>Choisissez un thème</h2>
+            <button id="theme-general">Général</button>
+            <button id="theme-circulaires">Circulaires</button>
+            <button id="theme-insigneCircu">Insignes/Embleme sur circulaire</button>
+            <button id="theme-insignePP">Insignes sur partie perso</button>
+            <button id="theme-histoire">Histoire et origine</button>           
+            
+
+        </div>
+
+        <div id="difficulty-selection" style="display: none;">
+            <h2>Choisissez une difficulté</h2>
+            <button class="difficulty-button">Quiz</button>
+            <button class="difficulty-button">Textuelle</button>
+        </div>
+
+        <div id="question-container" style="display: none;">
+            <h2 id="question">Question</h2>
+            <img id="question-image" src="" alt="Image liée à la question" style="display: none; max-width: 100%; margin: 10px 0; border-radius: 8px;" />
+            <div id="answers"></div>
+            <div id="text-input-container" style="display: none;">
+                <input type="text" id="text-answer" placeholder="Votre réponse">
+                <button id="validate-btn" class="btn">Valider</button>
+            </div>
+            
+            <div id="feedback"></div>
+            <button id="next-btn" style="display: none;">Question suivante</button>
+        </div>
+
+        
+        
+
+        <div id="score-container" style="display: none;">
+            <h2 id="score">Votre score est : 0/0</h2>
+            <button id="back-home-btn">Retour à l'accueil</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

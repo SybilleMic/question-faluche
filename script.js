@@ -640,19 +640,19 @@ const allQuestions = {
             wrongMessage: 'Le noir représente les ostéopathes.'
         },
         {
-            question: 'D’où a-t-elle été rapportée ? (ville d’origine)',
+            question: 'D’où la faluche a-t-elle été rapportée ? (ville d’origine)',
             correctAnswer: 'Bologne',
             possibleAnswers: ['Bologne', 'Chartres', 'Orléans', 'Paris', 'Limoge'],
             wrongMessage: 'Le bleu est associé aux professions paramédicales.'
         },
         {
-            question: 'A quoi ressemble-t-elle ?',
+            question: 'A quoi ressemble une faluche ?',
             correctAnswer: 'béret français',
             possibleAnswers: ['béret français', 'casquette', 'chaise', 'rien', 'béret italien'],
             wrongMessage: 'Le bleu est associé aux professions paramédicales.'
         },
         {
-            question: 'Devant qui doit-on l’enlever ?',
+            question: 'Devant qui doit-on enlever sa faluche ?',
             correctAnswer: 'le recteur',
             possibleAnswers: ['le recteur', 'le président', 'Maman', 'le maire', 'les profs'],
             wrongMessage: 'Le bleu est associé aux professions paramédicales.'

@@ -1,7 +1,7 @@
 const reponseInsignePP = ['',];
 
 const insignePPQuestions = [
-    {
+    /*{
         question: '',
         correctAnswer: '',
         possibleAnswers: reponseInsignePP,
@@ -210,8 +210,8 @@ const insignePPQuestions = [
         possibleAnswers: reponseInsignePP,
         wrongMessage: '',
         image: ""
-    },
-    
+    },*/
+
     
 ];
 

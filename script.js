@@ -62,6 +62,9 @@ function chooseDifficulty(difficulty) {
 // Fonction pour charger une question
 function loadQuestion() {
     if (currentQuestionIndex < questions.length) {
+        const answersContainer = document.getElementById('answers');
+        answersContainer.innerHTML = ''; // Réinitialise les réponses
+
         const questionData = questions[currentQuestionIndex];
         document.getElementById('question').textContent = questionData.question;
 
@@ -140,6 +143,18 @@ function displayTextAnswer() {
 // Fonction pour gérer la réponse donnée par l'utilisateur
 function handleAnswer(answer, correctAnswer, wrongMessage) {
     const feedback = document.getElementById('feedback');
+
+    const buttons = document.querySelectorAll('#answers .btn');
+
+    buttons.forEach(button => {
+        if (button.textContent === correctAnswer) {
+            button.classList.add('correct'); // Marque la bonne réponse en vert
+        } else if (button.textContent === answer) {
+            button.classList.add('incorrect'); // Marque la réponse sélectionnée en rouge si elle est incorrecte
+        }
+        button.classList.add('disabled'); // Désactive tous les boutons
+    });
+
     if (answer === correctAnswer) {
         feedback.textContent = 'Bonne réponse ! 🎉';
         score++;

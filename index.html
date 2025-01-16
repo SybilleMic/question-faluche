@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz faluchard</title>
 
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -33,7 +33,7 @@
 
         <div id="question-container" style="display: none;">
             <h2 id="question">Question</h2>
-            <img id="question-image" src="" alt="Image liée à la question" style="display: none; max-width: 100%; margin: 10px 0; border-radius: 8px;" />
+            <img id="question-image" src="" alt="Image liée à la question" />
             <div id="answers"></div>
             <div id="text-input-container" style="display: none;">
                 <input type="text" id="text-answer" placeholder="Votre réponse">
@@ -52,6 +52,7 @@
             <button id="back-home-btn">Retour à l'accueil</button>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
+
 </body>
 </html>

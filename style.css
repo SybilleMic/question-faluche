@@ -87,12 +87,12 @@ button:disabled {
 }
 
 #answers .correct {
-    background-color: green;
+    background-color: green !important;
     color: white;
 }
 
 #answers .incorrect {
-    background-color: red;
+    background-color: red !important;
     color: white;
 }
 
